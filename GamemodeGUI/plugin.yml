@@ -1,0 +1,16 @@
+name: GamemodeGui
+main: gmgui\Main
+version: 1.0.0
+author: vP3aZy
+api: ["4.5.1"]
+description: "GamemodeGUI for PeazyGames!"
+
+commands:
+  gmg:
+    description: "Open the GamemodeGUI!"
+    permission: "gmg.use"
+    permission-message: "§4Dafür hast du keine Rechte!"
+
+permissions:
+  gmg.use:
+    default: OP
