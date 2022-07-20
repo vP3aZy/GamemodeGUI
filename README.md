@@ -1,4 +1,9 @@
 <div align="center">
+	<h2>Description:</h2>
+	This Plugin adds an GamemodeGUI to your Pocketmine-MP Server!
+
+
+<div align="center">
 	<h2>Command:</h2>
 </div>
 <br>
