@@ -3,7 +3,8 @@ main: gmgui\Main
 version: 1.0.0
 author: vP3aZy
 api: ["4.5.1"]
-description: "GamemodeGUI for PeazyGames!"
+description: "GamemodeGUI for your Pocketmine Server!"
+website: "https://github.com/vP3aZy"
 
 commands:
   gmg:
