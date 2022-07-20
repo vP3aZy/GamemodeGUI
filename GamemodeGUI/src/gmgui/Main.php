@@ -21,11 +21,8 @@ use pocketmine\plugin\PluginBase;
 class Main extends PluginBase implements Listener {
 
     public function onEnable(): void {
-        $this->getLogger()->alert("Lade Events...");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->alert("Lade InventoriAPI");
         $this->inventoryApi = $this->getServer()->getPluginManager()->getPlugin("InventoryAPI");
-        $this->getLogger()->info("§aDas Plugin wurde erfolgreich geladen!");
     }
 
     public function onDisable(): void {
@@ -41,11 +38,11 @@ class Main extends PluginBase implements Listener {
                         $this->openMyChest($sender);
                         break;
                     } else {
-                        $sender->sendMessage("§bGamemodeGUI§7: §4Dafür hast du keine Rechte!");
+                        $sender->sendMessage("§4No Perms!");
                         break;
                     }
                 } else {
-                    $sender->sendMessage("§4Da stimmt irgendwas nicht, bist du ein Spieler?");
+                    $sender->sendMessage("§4Are you a Player?");
                     break;
                 }
         }
