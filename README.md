@@ -1,8 +1,12 @@
 <div align="center">
+	<h2>Picture:</h2>
+	<img alt="Chest" src="https://media.discordapp.net/attachments/991812611031183469/999333046635462676/Screenshot_20220720-171148_Minecraft.png?width=713&height=671" width="340" height="310"></img>
+
+<div align="center">
 	<h2>Description:</h2>
-	This Plugin adds an GamemodeGUI to your Pocketmine-MP Server!
-
-
+	This Plugin add a GamemodeGUI to your Minecraft Pocketmine Server!
+	
+		
 <div align="center">
 	<h2>Command:</h2>
 </div>
