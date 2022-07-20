@@ -19,7 +19,7 @@ commands:
   gmg:
     description: "Open the GamemodeGUI!"
     permission: "gmg.use"
-    permission-message: "§4Dafür hast du keine Rechte!"
+    permission-message: "§4No Perms!"
 ```
 </p>
 
