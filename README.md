@@ -1,4 +1,5 @@
-	<h2>Command:<h2>
+<div align="center">
+	<h2>Command:</h2>
 </div>
 <br>
 
