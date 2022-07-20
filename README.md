@@ -1,4 +1,4 @@
-	<h2>Command:</h2>
+	<h2>Command:<h2>
 </div>
 <br>
 
@@ -23,6 +23,5 @@ commands:
 ```yaml
 permissions:
   gmg.use:
-    default: OP  
-			
+    default: OP		
 ```
